@@ -1,0 +1,19 @@
+f
+ls -l
+useradd user1
+ls -l
+passwd user1
+123
+123
+su user1
+123
+ls -l
+mk hello
+w hello 10 helloworld
+su
+
+ls -l
+cat user1/hello
+userdel user1
+ls -l
+e

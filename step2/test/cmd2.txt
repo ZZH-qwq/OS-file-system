@@ -1,0 +1,24 @@
+f
+ls
+mkdir hello
+mkdir hello/world
+mkdir hello/world/.././../world2
+ls
+mk /hello/world/test
+w ././hello/../hello/world/test 10 helloworld
+cat hello/world/test
+i /hello/world/test 5000 5 _zzh_
+cat hello/world/test
+d hello/./world/./test 5 5000
+cat hello/world/test
+cd hello/world
+ls
+cd ../../world2
+ls
+cd /
+ls
+rm hello/world/test
+rmdir hello/world
+rmdir hello
+ls
+e

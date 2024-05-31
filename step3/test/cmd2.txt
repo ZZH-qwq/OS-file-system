@@ -1,0 +1,26 @@
+f
+useradd user1
+useradd user2
+ls -l
+mk hello
+ls -l
+su user1
+
+mk hello
+ls -l
+chown hello user2
+ls -l
+cd ..
+w hello 10 helloworld
+mk world
+cd user2
+chmod user1 77
+ls -l
+su user2
+
+cd ../user1
+mk world
+w hello 10 helloworld
+ls -l
+cat hello
+e

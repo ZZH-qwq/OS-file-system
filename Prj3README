@@ -1,0 +1,86 @@
+.
+├── makefile
+├── Prj3README
+├── report.pdf
+├── typescript.pdf
+├── step1
+│   ├── BDC_command.c
+│   ├── BDC_random.c
+│   ├── BDS.c
+│   ├── makefile
+│   ├── include
+│   │   ├── BasicDisk.h
+│   │   ├── ClientCore.h
+│   │   ├── Parser.h
+│   │   └── ServerCore.h
+│   └── src
+│       ├── BasicDisk.c
+│       ├── ClientCore.c
+│       ├── Parser.c
+│       └── ServerCore.c
+├── step2
+│   ├── BDS.c
+│   ├── FC.c
+│   ├── FS.c
+│   ├── makefile
+│   ├── include
+│   │   ├── BasicDisk.h
+│   │   ├── ClientCore.h
+│   │   ├── CmdEncoder.h
+│   │   ├── FileServer.h
+│   │   ├── FileSystem.h
+│   │   ├── Files.h
+│   │   ├── Inode.h
+│   │   ├── ServerCore.h
+│   │   ├── UserFunc.h
+│   │   └── UserOp.h
+│   ├── src
+│   │   ├── BasicDisk.c
+│   │   ├── ClientCore.c
+│   │   ├── CmdEncoder.c
+│   │   ├── FileServer.c
+│   │   ├── FileSystem.c
+│   │   ├── Files.c
+│   │   ├── Inode.c
+│   │   ├── ServerCore.c
+│   │   ├── UserFunc.c
+│   │   └── UserOp.c
+│   └── test
+│       ├── cmd1.txt
+│       ├── cmd2.txt
+│       ├── cmd3.txt
+│       ├── cmd4.txt
+│       └── cmd5.txt
+└── step3
+    ├── BDS.c
+    ├── FC.c
+    ├── FS.c
+    ├── makefile
+    ├── include
+    │   ├── BasicDisk.h
+    │   ├── ClientCore.h
+    │   ├── CmdEncoder.h
+    │   ├── FileServer.h
+    │   ├── FileSystem.h
+    │   ├── Files.h
+    │   ├── Inode.h
+    │   ├── ServerCore.h
+    │   ├── UserAuth.h
+    │   ├── UserFunc.h
+    │   └── UserOp.h
+    ├── src
+    │   ├── BasicDisk.c
+    │   ├── ClientCore.c
+    │   ├── CmdEncoder.c
+    │   ├── FileServer.c
+    │   ├── FileSystem.c
+    │   ├── Files.c
+    │   ├── Inode.c
+    │   ├── ServerCore.c
+    │   ├── UserAuth.c
+    │   ├── UserFunc.c
+    │   └── UserOp.c
+    └── test
+        ├── cmd1.txt
+        ├── cmd2.txt
+        └── cmd3.txt

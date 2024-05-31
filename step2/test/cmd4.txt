@@ -1,0 +1,37 @@
+f
+invalidCmd
+mk more args
+mkdir
+mk test
+mk test/notDir
+mkdir dir
+mkdir dir
+mkdir removed
+cd removed
+rmdir ../removed
+ls
+w dir 10 writeToDir
+w test -10 invalidLen
+w test 11 normalWrite
+cat test
+w test 0 emptyWrite
+cat test
+w test 2000 dataShorterThanLen
+cat test
+stat test
+w test 4 dataLongerThanLen
+cat test
+i test -1 10 invalidOffset
+i test 0 -10 invalidLen
+d test -1 10
+d test 0 -10
+d test 5000 10
+cat test
+cd ..
+cd notExist
+mk dir/notEmpty
+rmdir dir
+rmdir test
+rm dir
+ls
+e

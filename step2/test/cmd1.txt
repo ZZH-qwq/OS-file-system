@@ -1,0 +1,20 @@
+f
+ls
+mkdir hello
+mkdir world
+mk test
+ls -l
+w test 10 helloworld
+cat test
+i test 5 5 _zzh_
+cat test
+d test 10 5
+cat test
+rm test
+ls -l
+cd hello
+cd ..
+ls -l
+rmdir world
+ls -l
+e

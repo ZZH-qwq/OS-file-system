@@ -1,0 +1,18 @@
+f
+useradd root
+userdel root
+userdel notExist
+useradd user1
+useradd user2
+su user1
+123
+su user1
+
+cd ../public
+mk test
+chown test notExist
+chmod test 88
+chown test user2
+chmod test 77
+rm test
+e
